@@ -25,6 +25,6 @@
     1.0.0
 
 ## 参考
-- [Anaconda インストール方法](https://qiita.com/t2y/items/2a3eb58103e85d8064b6)
-- [Atom ダウンロード](https://atom.io/)
-- [Jupyter Notebook の使い方](https://peachcle.com/how-to-use-jupyter-notebook/)
+- [Anaconda インストール方法](https://qiita.com/t2y/items/2a3eb58103e85d8064b6)  
+- [Atom ダウンロード](https://atom.io/)  
+- [Jupyter Notebook の使い方](https://peachcle.com/how-to-use-jupyter-notebook/)  
