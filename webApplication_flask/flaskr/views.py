@@ -4,11 +4,13 @@ from flask import request, redirect, url_for, render_template, flash
 from flaskr import app, db
 from flaskr.models import Entry
 
+# root URL にアクセスした際の挙動
 @app.route('/')
 def show_entries():
     entries = Entry.query.order_by(Entry.id.desc()).all()
     return render_template('show_entries.html', entries=entries)
 
+# /add URL にアクセスした際の挙動
 @app.route('/add', methods=['POST'])
 def add_entry():
     entry = Entry(

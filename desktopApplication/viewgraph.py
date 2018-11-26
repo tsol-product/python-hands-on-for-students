@@ -43,34 +43,34 @@ if __name__ == '__main__':
     root.title('ViewGraph')
     root.resizable(False, False)
 
-    # Frame1の作成
+    # root に紐付いた Frame1 の作成
     frame1 = ttk.Frame(root, padding=10)
     frame1.grid()
 
-    # 参照ボタンの作成
+    # frame1 に紐付いた参照ボタンの作成
     button1 = ttk.Button(frame1, text=u'参照', command=reference_clicked)
     button1.grid(row=0, column=3)
 
-    # 「ファイル」ラベルの作成
+    # frame1 に紐付いた「ファイル」ラベルの作成
     s = tk.StringVar()
     s.set('ファイル>>')
     label1 = ttk.Label(frame1, textvariable=s)
     label1.grid(row=0, column=0)
 
-    # 参照ファイルパス表示ラベルの作成
+    # frame1 に紐付いた参照ファイルパス表示ラベルの作成
     file1 = tk.StringVar()
     file1_entry = ttk.Entry(frame1, textvariable=file1, width=50)
     file1_entry.grid(row=0, column=2)
 
-    # Frame2の作成
+    # root に紐付いた Frame2 の作成
     frame2 = ttk.Frame(root, padding=(0,5))
     frame2.grid(row=1)
 
-    # グラフ描画ボタンの作成
+    # frame2 に紐付いたグラフ描画ボタンの作成
     button2 = ttk.Button(frame2, text='グラフ描画', command=drawing_clicked)
     button2.pack(side=tk.LEFT)
 
-    # キャンセルボタンの作成
+    # frame2 に紐付いたキャンセルボタンの作成
     button3 = ttk.Button(frame2, text='キャンセル', command=quit)
     button3.pack(side=tk.LEFT)
 
