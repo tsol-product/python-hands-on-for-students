@@ -20,7 +20,7 @@ Jupyter Notebook プログラムを実行
 > * 学習時間 : 約 3 時間
 
 **参考**  
-[Wikipedia 日本語データ](sysctl machdep.cpu.brand_string)  
+[Wikipedia日本語データ](https://dumps.wikimedia.org/jawiki/latest/)  
 jawiki-latest-pages-articles.xml.bz2を使用  
 [500円で学習済みモデルを購入](https://note.mu/nekobauer/n/n46d7182cd5aa)  
 
