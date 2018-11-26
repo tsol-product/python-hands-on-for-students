@@ -11,10 +11,10 @@ $ activate "仮想環境名"
 
 web アプリケーションの起動
 ```
-$ python manage.py
+$ python viewgraph.py
 ```
 
-カレントディレクトリに注意（webApplication_flaskで起動）  
+カレントディレクトリに注意（desktopApplicationで起動）  
   
 プログラムの編集は任意のエディタを使用  
 
